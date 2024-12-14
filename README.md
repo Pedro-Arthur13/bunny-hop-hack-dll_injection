@@ -16,7 +16,7 @@ Este repositório implementa um hack básico de Bunny Hop para Counter-Strike at
 ## Como Usar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/bunnyhop-hack.git
+   git clone https://github.com/Pedro-Arthur13/bunny-hop-hack-dll_injection.git
    ```
 2. Baixe os offsets mais recentes utilizando o Hazedumper.
 3. Compile o projeto e gere o arquivo `.dll`.

@@ -1,6 +1,7 @@
 # Bunny Hop Hack for Counter-Strike: DLL Injection
 
-![Banner](https://via.placeholder.com/800x200.png?text=Bunny+Hop+Hack+for+Counter-Strike)
+![Banner](https://steamuserimages-a.akamaihd.net/ugc/198554609101753931/A9C6E97CA2D09FC963C0017D64145505B47451A6/?imw=800&imh=450&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+
 
 > **Disclaimer**: Este projeto foi desenvolvido exclusivamente para fins educativos e para estudo de engenharia reversa e injeção de DLLs. NÃO use este projeto em servidores oficiais ou para trapaças online. Qualquer uso malicioso é de sua responsabilidade.
 

@@ -14,11 +14,24 @@ Este repositório implementa um hack básico de Bunny Hop para Counter-Strike at
 - Counter-Strike rodando com o comando de inicialização `-insecure` para evitar problemas em servidores VAC protegidos.
 
 ## Como Usar
+
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Pedro-Arthur13/bunny-hop-hack-dll_injection.git
    ```
-2. Baixe os offsets mais recentes utilizando o Hazedumper.
+2. **Certifique-se de utilizar os offsets mais recentes.** Você pode obter os offsets atualizados utilizando o [Hazedumper](https://github.com/frk1/hazedumper-rs).
+   - Exemplo de estrutura de offsets no código:
+     ```cpp
+     namespace offset {
+         //client
+         constexpr std::ptrdiff_t dwLocalPlayer = 0; // substituir pelos recentes
+         constexpr std::ptrdiff_t dwForceJump = 0;
+
+         //player
+         constexpr std::ptrdiff_t m_iHeath = 0;
+         constexpr std::ptrdiff_t m_fFlags = 0;
+     }
+     ```
 3. Compile o projeto e gere o arquivo `.dll`.
 4. Abra o Counter-Strike com o comando `-insecure`:
    - Clique com o botão direito no jogo na sua biblioteca Steam.
